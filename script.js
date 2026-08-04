@@ -31,9 +31,9 @@ discs.forEach(function(disc) {
 
     card.innerHTML = `
         <img 
-            src="images/${disc}_Forehand.jpeg"
-            data-forehand="images/${disc}_Forehand.jpeg"
-            data-backhand="images/${disc}_Backhand.jpeg"
+            src="${disc}_Forehand.jpeg"
+            data-forehand="${disc}_Forehand.jpeg"
+            data-backhand="${disc}_Backhand.jpeg"
             onclick="toggleFlight(this)"
         >
 
